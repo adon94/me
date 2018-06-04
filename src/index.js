@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'typeface-roboto';
+import App from './App';
+import registerServiceWorker from './registerServiceWorker';
 
-const title = 'My Minimal React Webpack Babel Setup';
-
-ReactDOM.render(
-  <div>{title}</div>,
-  document.getElementById('app')
-);
+ReactDOM.render(<App />, document.getElementById('root'));
+registerServiceWorker();
 
 module.hot.accept();

@@ -1,3 +1,85 @@
+@import "@material/button/mdc-button";
+@import "@material/ripple/mdc-ripple";
+@import "components/Tech/Tech";
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+$primary: #536996;
+$pLight: #8297c7;
+$pDark: #243f68;
+$secondary: #ca6265;
+$sLight: #ff9293;
+$sDark: #95343b;
+
+html {
+  height: 100%;
+  background-color: $primary;
+}
+
 body {
-  color: blue;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background: url('http://www.modafinilsale.com/data/out/609/228304376-minimalist-wallpapers.png') center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 50vh;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.wide-center {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-img-container {
+  margin-top: -80px;
+}
+
+.profile-img {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  border: 3px solid white;
+  background: url(https://scontent.flis8-2.fna.fbcdn.net/v/t1.0-9/33865955_1697090723672277_5172840452180672512_n.jpg?_nc_cat=0&oh=59581099bd5360dbbb2ea0656287e7b0&oe=5BB4BD15) center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.titles {
+  font-family: 'Montserrat', sans-serif!important;
+}
+
+.intro-background {
+  background-color: $pDark;
+  padding-bottom: 15px;
+  box-shadow: inset 0px -20px 30px 0px rgba(0, 0, 0, 0.27);
+}
+
+.with-margin {
+  margin: 20px 0;
 }
